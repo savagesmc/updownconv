@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cc9fcf9b-b84f-49ca-8b98-f0ff7034b4a0)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 123.19 55.88) (size 48.26 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2254e971-85a0-48b7-bf92-56fa91ce526e)
+    (property "Sheetname" "VHF_Bandpass_Filter" (at 123.19 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VHF_Bandpass_Filter.kicad_sch" (at 123.19 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UpDownConverter"
+        (path "/cc9fcf9b-b84f-49ca-8b98-f0ff7034b4a0" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 55.88) (size 45.72 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 32631ea7-57a7-4016-8f88-d0d0383e4511)
+    (property "Sheetname" "Mixer" (at 19.05 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Mixer.kicad_sch" (at 19.05 86.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UpDownConverter"
+        (path "/cc9fcf9b-b84f-49ca-8b98-f0ff7034b4a0" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 185.42 55.88) (size 64.77 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3583a82f-81a1-4df1-bdf6-50220502d82c)
+    (property "Sheetname" "Top" (at 185.42 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "top.kicad_sch" (at 185.42 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UpDownConverter"
+        (path "/cc9fcf9b-b84f-49ca-8b98-f0ff7034b4a0" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 71.12 55.88) (size 48.26 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b126e69a-9c0d-4c01-8f3e-221dd78a02d4)
+    (property "Sheetname" "HF_Bandpass_Filter" (at 71.12 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "hf_bandpass.kicad_sch" (at 71.12 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "UpDownConverter"
+        (path "/cc9fcf9b-b84f-49ca-8b98-f0ff7034b4a0" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

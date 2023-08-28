@@ -1,0 +1,84 @@
+HF Bandpass Filter
+
+V1 SRC 0 DC 0 AC 1 PULSE( 0 5 1u 1u 1u 1 1)
+R1 SRC IN 50
+
+C1 IN 0 100p
+L1 IN 0 2.7u
+
+C2 IN N2 680p
+L2 N2 N3 390n
+
+C3 N3 0 220p
+L3 N3 0 1.2u
+
+C4 N3 N4 560p
+L4 N4 N5 470n
+
+C5 N5 0 220p
+L5 N5 0 1.2u
+
+C6 N5 N6 560p
+L6 N6 N7 470n
+
+C7 N7 0 220p
+L7 N7 0 1.2u
+
+C8 N7 N8 680p
+L8 N8 OUT 390n
+
+C9 OUT 0 100p
+L9 OUT 0 2.7u
+R2 OUT 0 50
+
+.control
+   let mc_runs = 1000
+   let run = 1
+   set curplot = new
+   set scratch = $curplot
+
+   define unif(nom, var) (nom + nom*var * sunif(0))
+
+   dowhile run <= mc_runs
+
+      alter C1 = unif(100p, 0.05)
+      alter L1 = unif(2.7u, 0.05)
+
+      alter C2 = unif(680p, 0.05)
+      alter L2 = unif(390n, 0.05)
+
+      alter C3 = unif(220p, 0.05)
+      alter L3 = unif(1.2u, 0.05)
+
+      alter C4 = unif(560p, 0.05)
+      alter L4 = unif(470n, 0.05)
+
+      alter C5 = unif(220p, 0.05)
+      alter L5 = unif(1.2u, 0.05)
+
+      alter C6 = unif(560p, 0.05)
+      alter L6 = unif(470n, 0.05)
+
+      alter C7 = unif(220p, 0.05)
+      alter L7 = unif(1.2u, 0.05)
+
+      alter C8 = unif(680p, 0.05)
+      alter L8 = unif(390n, 0.05)
+
+      alter C9 = unif(100p, 0.05)
+      alter L9 = unif(2.7u, 0.05)
+
+      ac oct 100 1e6 500e6
+
+      set run ="$&run"
+      set dt = $curplot
+      setplot $scratch
+
+      let loss{$run}={$dt}.v(out)/{$dt}.v(in)
+      setplot $dt
+      let run = run + 1
+   end
+   set nolegend
+   plot db({$scratch}.all) xlimit 1e6 100e6 ylimit -55 5 ylabel 'HF BPF - insertion loss'
+.endc
+.end
