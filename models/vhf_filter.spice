@@ -1,34 +1,34 @@
-VHF Bandpass Filter
+VHF Bandpass Filter - 10% Tolerance - 9th Order Chebyshev
 
 V1 SRC 0 DC 0 AC 1 PULSE( 0 5 1u 1u 1u 1 1)
 R1 SRC IN 50
 
-C1 IN 0 43p
-L1 IN 0 220n
+C1 IN 0 18p
+L1 IN 0 180n
 
-C2 IN N2 51p
-L2 N2 N3 200n
+C2 IN N2 68p
+L2 N2 N3 56n
 
-C3 N3 0 100p
+C3 N3 0 33p
 L3 N3 0 100n
 
-C4 N3 N4 39p
-L4 N4 N5 240n
+C4 N3 N4 56p
+L4 N4 N5 56n
 
-C5 N5 0 100p
-L5 N5 0 91n
+C5 N5 0 33p
+L5 N5 0 100n
 
-C6 N5 N6 39p
-L6 N6 N7 240n
+C6 N5 N6 56p
+L6 N6 N7 56n
 
-C7 N7 0 100p
+C7 N7 0 33p
 L7 N7 0 100n
 
-C8 N7 N8 51p
-L8 N8 OUT 200n
+C8 N7 N8 68p
+L8 N8 OUT 56n
 
-C9 OUT 0 43p
-L9 OUT 0 220n
+C9 OUT 0 18p
+L9 OUT 0 180n
 R2 OUT 0 50
 
 .control
@@ -41,32 +41,32 @@ R2 OUT 0 50
 
    dowhile run <= mc_runs
 
-      alter C1 = unif(43p, 0.1)
-      alter L1 = unif(220n, 0.1)
+      alter C1 = unif(18p, 0.1)
+      alter L1 = unif(180n, 0.1)
 
-      alter C2 = unif(51p, 0.1)
-      alter L2 = unif(200n, 0.1)
+      alter C2 = unif(68p, 0.1)
+      alter L2 = unif(56n, 0.1)
 
-      alter C3 = unif(100p, 0.1)
+      alter C3 = unif(33p, 0.1)
       alter L3 = unif(100n, 0.1)
 
-      alter C4 = unif(39p, 0.1)
-      alter L4 = unif(240n, 0.1)
+      alter C4 = unif(56p, 0.1)
+      alter L4 = unif(56n, 0.1)
 
-      alter C5 = unif(100p, 0.1)
-      alter L5 = unif(91n, 0.1)
+      alter C5 = unif(33p, 0.1)
+      alter L5 = unif(100n, 0.1)
 
-      alter C6 = unif(39p, 0.1)
-      alter L6 = unif(240n, 0.1)
+      alter C6 = unif(56p, 0.1)
+      alter L6 = unif(56n, 0.1)
 
-      alter C7 = unif(100p, 0.1)
+      alter C7 = unif(33p, 0.1)
       alter L7 = unif(100n, 0.1)
 
-      alter C8 = unif(51p, 0.1)
-      alter L8 = unif(200n, 0.1)
+      alter C8 = unif(68p, 0.1)
+      alter L8 = unif(56n, 0.1)
 
-      alter C9 = unif(43p, 0.1)
-      alter L9 = unif(220n, 0.1)
+      alter C9 = unif(18p, 0.1)
+      alter L9 = unif(180n, 0.1)
 
       ac oct 100 10e6 500e6
 

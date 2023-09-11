@@ -481,10 +481,6 @@
       ""
     ],
     [
-      "3583a82f-81a1-4df1-bdf6-50220502d82c",
-      "Top"
-    ],
-    [
       "32631ea7-57a7-4016-8f88-d0d0383e4511",
       "Mixer"
     ],
@@ -495,6 +491,38 @@
     [
       "2254e971-85a0-48b7-bf92-56fa91ce526e",
       "VHF_Bandpass_Filter"
+    ],
+    [
+      "ab74cd2f-eff3-4b15-974d-4c4d84667be8",
+      "UHF_Bandpass_Filter"
+    ],
+    [
+      "fde49e33-f7a9-44d2-a8d5-eebc93debbac",
+      "LBAND_Bandpass_Filter"
+    ],
+    [
+      "c51ecb37-5de8-4a39-8f06-f77413a33545",
+      "RX_Input"
+    ],
+    [
+      "89113eb6-a386-4eef-ae89-fc2030098002",
+      "RX_Output"
+    ],
+    [
+      "02346fef-99d3-4fce-b956-41e58ea4d527",
+      "TX_Input"
+    ],
+    [
+      "8293af9b-7bb8-4590-be18-b1e7de437a84",
+      "TX_Output"
+    ],
+    [
+      "eef86726-0f8f-4e45-83a5-0e3a160b689a",
+      "Band Select"
+    ],
+    [
+      "d983650b-0f6b-433a-9b93-f1b49179bfd3",
+      "Power"
     ]
   ],
   "text_variables": {}
