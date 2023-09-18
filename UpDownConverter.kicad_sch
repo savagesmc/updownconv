@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "PLUTO RF Card Front-End")
+    (rev " 001")
+    (company "Steves Custom Computers")
+  )
+
   (lib_symbols
   )
 
@@ -64,14 +70,14 @@
     (uuid fe3902ac-3b36-43de-bf3e-ca9c01f16e92)
   )
 
-  (sheet (at 214.63 88.9) (size 40.64 22.86) (fields_autoplaced)
+  (sheet (at 24.13 88.9) (size 35.56 55.88) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 02346fef-99d3-4fce-b956-41e58ea4d527)
-    (property "Sheetname" "TX_Input" (at 214.63 87.3234 0)
+    (property "Sheetname" "TX_Input" (at 24.13 87.3234 0)
       (effects (font (size 3 3)) (justify left bottom))
     )
-    (property "Sheetfile" "tx_input.kicad_sch" (at 214.63 112.3446 0)
+    (property "Sheetfile" "tx_input.kicad_sch" (at 24.13 145.3646 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (instances
@@ -139,14 +145,14 @@
     )
   )
 
-  (sheet (at 24.13 90.17) (size 36.83 54.61) (fields_autoplaced)
+  (sheet (at 213.36 90.17) (size 41.91 20.32) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 8293af9b-7bb8-4590-be18-b1e7de437a84)
-    (property "Sheetname" "TX_Output" (at 24.13 88.5934 0)
+    (property "Sheetname" "TX_Output" (at 213.36 88.5934 0)
       (effects (font (size 3 3)) (justify left bottom))
     )
-    (property "Sheetfile" "tx_output.kicad_sch" (at 24.13 145.3646 0)
+    (property "Sheetfile" "tx_output.kicad_sch" (at 213.36 111.0746 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (instances

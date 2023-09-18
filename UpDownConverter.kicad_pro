@@ -513,12 +513,12 @@
       "TX_Input"
     ],
     [
-      "8293af9b-7bb8-4590-be18-b1e7de437a84",
-      "TX_Output"
-    ],
-    [
       "eef86726-0f8f-4e45-83a5-0e3a160b689a",
       "Band Select"
+    ],
+    [
+      "8293af9b-7bb8-4590-be18-b1e7de437a84",
+      "TX_Output"
     ],
     [
       "d983650b-0f6b-433a-9b93-f1b49179bfd3",

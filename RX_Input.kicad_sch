@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "PLUTO RF Card Front-End")
+    (rev " 001")
+    (company "Steves Custom Computers")
+  )
+
   (lib_symbols
     (symbol "SamacSys_Parts:PCB.SMAFRA.HT" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 16.51 7.62 0)

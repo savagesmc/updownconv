@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "PLUTO RF Card Front-End")
+    (rev " 001")
+    (company "Steves Custom Computers")
+  )
+
   (lib_symbols
   )
 
