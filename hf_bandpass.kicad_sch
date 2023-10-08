@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "PLUTO RF Card Front-End")
+    (title "PLUTO RF Front-End Card")
     (rev " 001")
     (company "Steves Custom Computers")
   )
@@ -537,13 +537,13 @@
     (uuid 377f67fb-6bba-4538-a340-2cc1fd2c98ec)
   )
 
-  (hierarchical_label "HF_BP_Out" (shape output) (at 246.38 93.98 0) (fields_autoplaced)
+  (hierarchical_label "HF BPF Port 2" (shape bidirectional) (at 246.38 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ee307ad3-d7f6-4c8a-bdd5-b8e5e13ed7ed)
+    (uuid 53e2691d-93c1-465e-8857-5c2d07ce0020)
   )
-  (hierarchical_label "HF_BP_In" (shape input) (at 53.34 93.98 180) (fields_autoplaced)
+  (hierarchical_label "HF BPF Port 1" (shape bidirectional) (at 53.34 93.98 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fb89aad8-eeff-4ccd-9b2f-40ccb71a451e)
+    (uuid ce56378c-7d06-4488-a76b-8e435a8a39ec)
   )
 
   (symbol (lib_id "power:Earth") (at 135.89 107.95 0) (unit 1)

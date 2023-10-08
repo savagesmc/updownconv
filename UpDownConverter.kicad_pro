@@ -481,8 +481,20 @@
       ""
     ],
     [
-      "32631ea7-57a7-4016-8f88-d0d0383e4511",
-      "Mixer"
+      "d983650b-0f6b-433a-9b93-f1b49179bfd3",
+      "Power"
+    ],
+    [
+      "c51ecb37-5de8-4a39-8f06-f77413a33545",
+      "Antenna"
+    ],
+    [
+      "eef86726-0f8f-4e45-83a5-0e3a160b689a",
+      "Band Select Logic"
+    ],
+    [
+      "363b3fe4-8ed3-433e-90c3-8524d958f4d8",
+      "Band Select Switch"
     ],
     [
       "b126e69a-9c0d-4c01-8f3e-221dd78a02d4",
@@ -501,28 +513,20 @@
       "LBAND_Bandpass_Filter"
     ],
     [
-      "c51ecb37-5de8-4a39-8f06-f77413a33545",
-      "RX_Input"
+      "32631ea7-57a7-4016-8f88-d0d0383e4511",
+      "Mixer & Band Select"
     ],
     [
       "89113eb6-a386-4eef-ae89-fc2030098002",
       "RX_Output"
     ],
     [
+      "5159fa49-077f-4012-9a08-3c54bef294b8",
+      "Baseband TR Switch"
+    ],
+    [
       "02346fef-99d3-4fce-b956-41e58ea4d527",
       "TX_Input"
-    ],
-    [
-      "eef86726-0f8f-4e45-83a5-0e3a160b689a",
-      "Band Select"
-    ],
-    [
-      "8293af9b-7bb8-4590-be18-b1e7de437a84",
-      "TX_Output"
-    ],
-    [
-      "d983650b-0f6b-433a-9b93-f1b49179bfd3",
-      "Power"
     ]
   ],
   "text_variables": {}
