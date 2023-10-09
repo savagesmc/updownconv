@@ -179,7 +179,7 @@
     (uuid ffeab476-9e89-4b09-bf5b-42bcab854927)
   )
 
-  (text "NOTE CTRL[1..10] Bus Definition:\n\n1 - T/R Switch Select\n2 - HF/VHF Switch Select\n3 - UHF/LBAND Switch Select\n4 - Mixer Switch Select\n5 - Band Select Switch V1\n6 - Band Select Switch V2\n"
+  (text "NOTE CTRL[1..10] Bus Definition:\n\n1 - T/R Switch Select\n2 - HF/VHF Switch Select\n3 - UHF/LBAND Switch Select\n4 - Mixer Switch Select\n5 - Band Select Switch V1\n6 - Band Select Switch V2\n7 - LO Select\n"
     (at 227.33 200.66 0)
     (effects (font (size 3 3)) (justify right bottom))
     (uuid eae5abf4-dee2-48c1-b543-284248de48c1)
