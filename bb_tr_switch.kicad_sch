@@ -159,7 +159,7 @@
     )
   )
 
-  (bus_alias "POWER[1..10]" (members "+3.3V" "-2.5V"))
+  (bus_alias "POWER[1..10]" (members "+3.3V" "-3.3V" "-2.5V" "1.8V" "1.8V"))
   (junction (at 58.42 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 4067de67-5f75-4844-a5fb-2b1d46857b7f)
   )
